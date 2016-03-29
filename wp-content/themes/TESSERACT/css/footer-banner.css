@@ -25,6 +25,7 @@
 
 #footer-banner .site-title {
 	margin: 0;
+	display: none;
 	}
 
 #horizontal-menu-wrap {
@@ -33,6 +34,7 @@
 	vertical-align: middle;
 	position: relative;
 	z-index: 1;
+	display: none;
 	}
 
 #horizontal-menu-wrap > * {
@@ -40,52 +42,55 @@
 	vertical-align: middle;
 	width: 1px;
 	white-space: nowrap;
+	display: none;
 	}
 
 #footer-banner .search-form {
 	margin-top: 1px;
+	display: none;
 	}
 
 #footer-banner .search-field {
 	box-sizing: border-box;
+	display: none;
 	}
 
 #horizontal-menu-before {
 	padding-right: 12px;
 	margin-right: 4px;
 	border: none;
-	zoom: 1; *display: inline;
+	zoom: 1; *display: inline; display: none;
 	}
 
 #horizontal-menu-before.is-menu {
-	border-right: rgba(255, 255, 255, 0.1) solid 1px;
+	border-right: rgba(255, 255, 255, 0.1) solid 1px; display: none;
 	}
 
 #horizontal-menu-wrap.logo #horizontal-menu-before {
 	display: table-cell;
 	width: 1px;
-	white-space: nowrap;
+	white-space: nowrap; display: none;
 	}
 
 #footer-banner .site-logo,
 #footer-banner .site-name {
-	margin: 0;
+	margin: 0; display: none;
 	}
 
 #footer-banner .site-logo a,
 #footer-banner .site-name a {
-	padding: 0;
+	padding: 0; display: none;
 	}
 
 #footer-banner .site-logo a {
 	height: auto;
-	margin: 0;
+	margin: 0; display: none;
 	}
 
 #footer-banner .site-logo img {
 	height: 40px;
 	max-width: inherit;
-	padding: 0;
+	padding: 0; display: none;
 	}
 
 #footer-horizontal-menu	{
@@ -95,11 +100,11 @@
 	border-right: none;
 	line-height: 1;
 	vertical-align: middle;
-	white-space: normal;
+	white-space: normal; display: none;
 	}
 
 #footer-horizontal-menu.is-before {
-	padding-left: 12px;
+	padding-left: 12px; display: none;
 	}
 
 #colophon > .menu ul,
@@ -107,7 +112,7 @@
 .hm-social {
 	list-style-type: none;
 	text-align: left;
-	margin: 0 0 0 0;
+	margin: 0 0 0 0; display: none;
 	}
 
 #colophon > .menu ul li,
@@ -115,13 +120,13 @@
 #footer-horizontal-menu ul li  {
 	display: inline-block;
 	zoom: 1; *display: inline;
-	vertical-align: middle;
+	vertical-align: middle; display: none;
 	}
 
 #colophon > .menu ul li,
 #footer-horizontal-menu ul li,
 .hm-social li {
-	padding: 7px 12px;
+	padding: 7px 12px; display: none;
 	}
 
 #footer-horizontal-menu ul li { padding: 0 12px 0 0; }
@@ -131,36 +136,36 @@
 
 #footer-horizontal-menu ul li a {
 	line-height: 24px;
-	display: block;
+	display: block; display: none;
 	}
 
 .hm-social li,
 .hm-social li a {
 	display: block;
-	height: 24px;
+	height: 24px; display: none;
 	}
 
 .hm-social {
 	display: table;
-	vertical-align: middle;
+	vertical-align: middle; display: none;
 	}
 
 .hm-social > li {
 	display: table-cell;
 	padding: 8px 6px;
-	box-sizing: content-box;
+	box-sizing: content-box; display: none;
 	}
 
 .hm-social > li a img {
 	width: 24px;
 	height: 24px;
-	max-width: inherit;
+	max-width: inherit; display: none;
 	}
 
 .hm-social li:first-child { padding-left: 0; }
 
 #horizontal-menu-before	.search-form {
-	padding-right: 4px;
+	padding-right: 4px; display: none;
 	}
 
 #footer-banner-right {
@@ -170,28 +175,28 @@
 	display: table-cell;
 	position: relative;
 	height: 100%;
-	vertical-align: middle;
+	vertical-align: middle; display: none;
 	}
 
 #footer-banner-right.designer {
 	text-align: right;
-	font-size:16px;
+	font-size:16px; display: none;
 	}
 
 #footer-banner-right.designer a {
-	font-size:16px;
+	font-size:16px; display: none;
 	}
 
 #footer-banner-right > .table {
 	display: table;
 	table-layout: fixed;
 	height: 100%;
-	width: 100%;
+	width: 100%; display: none;
 	}
 
 #footer-banner-right > .table > .table-cell {
 	display: table-cell;
-	vertical-align: middle;
+	vertical-align: middle; display: none;
 	}
 
 @media screen and (max-width: 960px) {
@@ -204,7 +209,7 @@
 @media screen and (max-width: 768px) {
 
 	#footer-banner {
-		padding: 0 20px 5px;
+		padding: 0 20px 5px; display: none;
 		}
 
 	#horizontal-menu-wrap { padding-left: 0; }
@@ -215,11 +220,11 @@
 	#footer-banner-right {
 		float: none;
 		width: 100%!important;
-		display: block!important;
+		display: block!important; display: none;
 	}
 
 	#footer-banner-right {
-		text-align: center;
+		text-align: center; display: none;
 	}
 
 	#horizontal-menu-before,
@@ -229,46 +234,46 @@
 		display: block;
 		width: 100%;
 		padding: 0;
-		padding-left: 0;
+		padding-left: 0; display: none;
 	}
 
 	#horizontal-menu-before {
 		margin-right: 0;
 		padding-right: 0;
 		border: none!important;
-		text-align: center;
+		text-align: center; display: none;
 		}
 
 	#footer-banner .site-branding {
-		display: block;
+		display: block; display: none;
 		}
 
 	#footer-banner .site-title {
 		text-align: center;
 		padding: 0;
-		margin: 0;
+		margin: 0; display: none;
 		}
 
 	#footer-banner .site-logo a,
 	#footer-banner .site-logo img {
 		height: auto;
-		padding: 0;
+		padding: 0; display: none;
 		}
 
 	#footer-banner .site-logo h1 {
-		text-align: center;
+		text-align: center; display: none;
 		}
 
 	#footer-banner .site-logo img {
 		max-width: 100%;
-		margin: auto;
+		margin: auto; display: none;
 		}
 
 	#footer-horizontal-menu > div {
 		display: table;
 		table-layout: fixed;
 		width: 100%;
-		margin-top: 40px;
+		margin-top: 40px; display: none;
 		}
 
 	#horizontal-menu-wrap.nothing #footer-horizontal-menu > div { margin-top: 0; }
@@ -276,14 +281,14 @@
 	#horizontal-menu-before ul,
 	#footer-horizontal-menu ul {
 		width: 100%;
-		text-align: center;
+		text-align: center; display: none;
 		}
 
 	#horizontal-menu-before ul li,
 	#footer-horizontal-menu ul li {
 		display: inline-block;
 		zoom: 1; *display: inline;
-		float: none;
+		float: none; display: none;
 		}
 
 	#footer-horizontal-menu ul li { padding: 0 12px; }
@@ -291,11 +296,11 @@
 	#horizontal-menu-before .search-form {
 		display: block;
 		width: 240px;
-		margin: auto;
+		margin: auto; display: none;
 	}
 
 	#horizontal-menu-before .search-field {
-		width: 100%;
+		width: 100%; display: none;
 	}
 
 	#footer-banner-right {
@@ -308,11 +313,11 @@
 		border-top: rgba(255, 255, 255, 0.1) solid 1px;
 		line-height: 24px;
 		position: relative;
-		right: 0;
+		right: 0; display: none;
 	}
 
 	#footer-banner-right > .table > .table-cell {
-		text-align: center;
+		text-align: center; display: none;
 		}
 
 }
