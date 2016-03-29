@@ -624,7 +624,7 @@ blockquote,
     padding: 0 0 0 60px;
 
     }
-	
+
 ul ul,
 ol ol {
     margin-bottom: 0;
@@ -1436,8 +1436,8 @@ th {
 -------------------------------------------------------------- */
 
 a {
-    color: #199cd8;
-    text-decoration: none;
+    color: #fff;
+    text-decoration: none;;
 }
 
 a:hover {
